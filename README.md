@@ -24,7 +24,9 @@ library(tidyverse)
     ## x readr::local_edition() masks testthat::local_edition()
     ## x dplyr::matches()       masks tidyr::matches(), testthat::matches()
 
-## ICPSR Table
+We have two tables, one with ICPSR codes and one with FIPS codes:
+
+### ICPSR Table
 
 ``` r
 ## ICPSR Excel table from https://usa.ipums.org/usa/volii/ICPSR.shtml
@@ -48,7 +50,7 @@ icpsr <- read_csv("data/icpsrcnt.csv") %>%
     ## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
 
 ``` r
-## Table
+## ICPSR Table
 icpsr
 ```
 
@@ -67,7 +69,7 @@ icpsr
     ## 10 Alabama   Cherokee                  41             1            190
     ## # … with 3,249 more rows
 
-## FIPS table
+### FIPS table
 
 This is from my own repo. This may not be up to date! Can get more
 current list from the Census
@@ -86,16 +88,48 @@ fips <- read_csv("https://raw.githubusercontent.com/kjhealy/fips-codes/master/co
     ## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
 
 ``` r
-## Words that end the names of "counties"
+## FIPS table
+fips
+```
+
+    ## # A tibble: 3,146 × 13
+    ##     fips county_name     state_abbr state_name long_name  sumlev region division
+    ##    <dbl> <chr>           <chr>      <chr>      <chr>       <dbl>  <dbl>    <dbl>
+    ##  1  1001 Autauga County  AL         Alabama    Autauga C…     50      3        6
+    ##  2  1003 Baldwin County  AL         Alabama    Baldwin C…     50      3        6
+    ##  3  1005 Barbour County  AL         Alabama    Barbour C…     50      3        6
+    ##  4  1007 Bibb County     AL         Alabama    Bibb Coun…     50      3        6
+    ##  5  1009 Blount County   AL         Alabama    Blount Co…     50      3        6
+    ##  6  1011 Bullock County  AL         Alabama    Bullock C…     50      3        6
+    ##  7  1013 Butler County   AL         Alabama    Butler Co…     50      3        6
+    ##  8  1015 Calhoun County  AL         Alabama    Calhoun C…     50      3        6
+    ##  9  1017 Chambers County AL         Alabama    Chambers …     50      3        6
+    ## 10  1019 Cherokee County AL         Alabama    Cherokee …     50      3        6
+    ## # … with 3,136 more rows, and 5 more variables: state <dbl>, county <dbl>,
+    ## #   crosswalk <chr>, region_name <chr>, division_name <chr>
+
+## Cleanup
+
+We need to merge the tables but we don’t have fully shared ID codes
+between them. We can try using the combination of State name and County
+name. The difficulty is that the counties (also e.g. parishes \[in LA\]
+and cities \[in VA\] etc) have the name “County” etc appended in one
+table but not the other. We’ll strip the last word of the `county_name`
+column in the `fips` table to make them roughly comparable. This won’t
+be perfect, though.
+
+``` r
 end_words <- c("Borough", "County", "Area", "Municipality", 
                "Columbia", "Parish", "city", "City")
 
 ## A regular expression to match them
 end_words_re <- paste0(end_words, collapse = "|")
+```
 
+Now we add a column to `fips` that’s the “county” names but with end
+word deleted.
 
-## Make a column with "county" names but with end words deleted
-## Doing this to facilitate matching with icpsr table
+``` r
 fips <- fips %>% 
   mutate(county_clipped = str_remove(county_name, end_words_re), 
          county_clipped = str_squish(county_clipped)) %>% 
@@ -125,8 +159,9 @@ fips
 
 ### 1. Left-join `icpsr` table to `fips` table
 
-This will preserve all rows in `icpsr` but any rows in fips not matched
-in icpsr won’t be merged.
+If we put `icpsr` on the left side of the join, this will preserve all
+rows in `icpsr` but any rows in `fips` not matched in `icpsr` won’t be
+merged.
 
 ``` r
 ## Result: 3,265 x 19
@@ -194,8 +229,9 @@ write_csv(file = "data/icpsr_nofips.csv", icpsr_nofips)
 
 ### 2. Left join `fips` to `icpsr`
 
-With `fips` on the left side of the join, this will preserve all rows in
-`fips`, but any rows in `icpsr` not matched in fips won’t be merged.
+If we put `fips` on the left side of the join, this will preserve all
+rows in `fips`, but any rows in `icpsr` not matched in `fips` won’t be
+merged.
 
 ``` r
 # Result: 3,146 × 19
@@ -260,7 +296,10 @@ missing_icpcod
 write_csv(missing_icpcod, file = "data/missing_icp_cod.csv")
 ```
 
-### 3. Full join: merges tables, preserves all rows in both tables
+### 3. Full join
+
+This is the union of the tables, preserving all rows in both tables,
+even if one isn’t present in the other table.
 
 ``` r
 ## Result: 3,425 x 19
