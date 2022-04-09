@@ -1,0 +1,144 @@
+---
+title: "FIPS / ICPSR"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+## Setup
+
+```{r setup}
+knitr::opts_chunk$set(echo = TRUE)
+  
+library(tidyverse)
+
+```
+
+## ICPSR Table
+
+```{r}
+## ICPSR Excel table from https://usa.ipums.org/usa/volii/ICPSR.shtml
+icpsr <- read_csv("data/icpsrcnt.csv") %>% 
+  janitor::clean_names() %>% 
+  rename(icp_county = county, 
+         icp_state = state, 
+         icp_statefips = statefips, 
+         icp_statecode = stateicp, 
+         icp_county_cod = county_cod) %>% 
+  select(icp_state, icp_county, everything())
+
+## Table
+icpsr
+```
+
+
+## County FIPS codes from my GitHub 
+
+This may not be up to date! Can get more current list from the Census
+
+```{r}
+fips <- read_csv("https://raw.githubusercontent.com/kjhealy/fips-codes/master/county_fips_master.csv")
+
+
+## Words that end the names of "counties"
+end_words <- c("Borough", "County", "Area", "Municipality", 
+               "Columbia", "Parish", "city", "City")
+
+## A regular expression to match them
+end_words_re <- paste0(end_words, collapse = "|")
+
+
+## Make a column with "county" names but with end words deleted
+## Doing this to facilitate matching with icpsr table
+fips <- fips %>% 
+  mutate(county_clipped = str_remove(county_name, end_words_re), 
+         county_clipped = str_squish(county_clipped)) %>% 
+  select(fips, county_name, state_abbr, state, county_clipped, everything())
+
+## Table
+fips
+```
+
+## Joining the tables
+
+### 1. 
+
+```{r}
+## Left join icpsr to fips: this will preserve all rows in 
+## icpsr, but any rows in fips not matched in icpsr won't
+## be merged.
+## Result: 3,265 x 19
+icpsr_ljoin_fips <- icpsr %>% 
+  left_join(fips, by = c("icp_state" = "state_name", 
+                         "icp_county" = "county_clipped"), 
+            keep = TRUE)
+
+write_csv(icpsr_ljoin_fips, file = "data/icpsr_ljoin_fips.csv")
+
+
+icpsr_to_fips
+
+```
+
+```{r}
+## Missing after merge: if FIPS is missing, the county didn't exist in fips 
+## 279 rows missing
+icpsr_nofips <- icpsr_ljoin_fips %>% 
+  filter(is.na(fips)) 
+
+icpsr_nofips
+
+write_csv(file = "data/icpsr_nofips.csv", icpsr_nofips)
+```
+
+### 2. 
+
+```{r}
+## Left join fips to icpsr: this will preserve all rows in 
+## fips, but any rows in icpsr not matched in fips won't 
+## be merged.
+# Result: 3,146 × 19
+fips_ljoin_icpsr <- fips %>% 
+  left_join(icpsr, by = c("state_name" = "icp_state", 
+                           "county_clipped" = "icp_county"), 
+             keep = TRUE)
+
+write_csv(fips_ljoin_icpsr, file = "data/fips_ljoin_icpsr.csv")
+
+fips_ljoin_icpsr
+```
+
+```{r}
+### Missing after merge: if icp_county_cod is missing, the county didn't exist in icpsr 
+### 160 rows missing
+missing_icpcod <- fips_ljoin_icpsr %>% 
+  filter(is.na(icp_county_cod)) 
+
+missing_icpcod
+
+write_csv(missing_icpcod, file = "data/missing_icp_cod.csv")
+
+```
+
+
+### 3.
+
+```{r}
+## Full join: merges tables, preserves all rows in both tables
+## Result: 3,425 x 19
+county_fulljoin <- icpsr %>% 
+  full_join(fips, by = c("icp_state" = "state_name", 
+                                "icp_county" = "county_clipped"), 
+            keep = TRUE)
+
+write_csv(county_fulljoin, file = "data/county_fulljoin.csv")
+
+county_full
+
+```
+
+
+
+
+
+  

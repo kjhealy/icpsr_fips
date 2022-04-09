@@ -1,0 +1,161 @@
+fips,county_name,state_abbr,state,county_clipped,state_name,long_name,sumlev,region,division,county,crosswalk,region_name,division_name,icp_state,icp_county,icp_statecode,icp_statefips,icp_county_cod
+1015,Calhoun County,AL,1,Calhoun,Alabama,Calhoun County AL,50,3,6,15,3-6-1-15,South,East South Central,NA,NA,NA,NA,NA
+1021,Chilton County,AL,1,Chilton,Alabama,Chilton County AL,50,3,6,21,3-6-1-21,South,East South Central,NA,NA,NA,NA,NA
+1075,Lamar County,AL,1,Lamar,Alabama,Lamar County AL,50,3,6,75,3-6-1-75,South,East South Central,NA,NA,NA,NA,NA
+1103,Morgan County,AL,1,Morgan,Alabama,Morgan County AL,50,3,6,103,3-6-1-103,South,East South Central,NA,NA,NA,NA,NA
+1115,St. Clair County,AL,1,St. Clair,Alabama,St. Clair County AL,50,3,6,115,3-6-1-115,South,East South Central,NA,NA,NA,NA,NA
+1133,Winston County,AL,1,Winston,Alabama,Winston County AL,50,3,6,133,3-6-1-133,South,East South Central,NA,NA,NA,NA,NA
+2013,Aleutians East Borough,AK,2,Aleutians East,Alaska,Aleutians East Borough AK,50,4,9,13,4-9-2-13,West,Pacific,NA,NA,NA,NA,NA
+2016,Aleutians West Census Area,AK,2,Aleutians West Census,Alaska,Aleutians West Census Area AK,50,4,9,16,4-9-2-16,West,Pacific,NA,NA,NA,NA,NA
+2020,Anchorage Municipality,AK,2,Anchorage,Alaska,Anchorage Municipality AK,50,4,9,20,4-9-2-20,West,Pacific,NA,NA,NA,NA,NA
+2050,Bethel Census Area,AK,2,Bethel Census,Alaska,Bethel Census Area AK,50,4,9,50,4-9-2-50,West,Pacific,NA,NA,NA,NA,NA
+2060,Bristol Bay Borough,AK,2,Bristol Bay,Alaska,Bristol Bay Borough AK,50,4,9,60,4-9-2-60,West,Pacific,NA,NA,NA,NA,NA
+2068,Denali Borough,AK,2,Denali,Alaska,Denali Borough AK,50,4,9,68,4-9-2-68,West,Pacific,NA,NA,NA,NA,NA
+2070,Dillingham Census Area,AK,2,Dillingham Census,Alaska,Dillingham Census Area AK,50,4,9,70,4-9-2-70,West,Pacific,NA,NA,NA,NA,NA
+2090,Fairbanks North Star Borough,AK,2,Fairbanks North Star,Alaska,Fairbanks North Star Borough AK,50,4,9,90,4-9-2-90,West,Pacific,NA,NA,NA,NA,NA
+2100,Haines Borough,AK,2,Haines,Alaska,Haines Borough AK,50,4,9,100,4-9-2-100,West,Pacific,NA,NA,NA,NA,NA
+2105,Hoonah-Angoon Census Area,AK,2,Hoonah-Angoon Census,Alaska,Hoonah-Angoon Census Area AK,50,4,9,105,4-9-2-105,West,Pacific,NA,NA,NA,NA,NA
+2110,Juneau City and Borough,AK,2,Juneau and Borough,Alaska,Juneau City and Borough AK,50,4,9,110,4-9-2-110,West,Pacific,NA,NA,NA,NA,NA
+2122,Kenai Peninsula Borough,AK,2,Kenai Peninsula,Alaska,Kenai Peninsula Borough AK,50,4,9,122,4-9-2-122,West,Pacific,NA,NA,NA,NA,NA
+2130,Ketchikan Gateway Borough,AK,2,Ketchikan Gateway,Alaska,Ketchikan Gateway Borough AK,50,4,9,130,4-9-2-130,West,Pacific,NA,NA,NA,NA,NA
+2150,Kodiak Island Borough,AK,2,Kodiak Island,Alaska,Kodiak Island Borough AK,50,4,9,150,4-9-2-150,West,Pacific,NA,NA,NA,NA,NA
+2158,Kusilvak Census Area,AK,2,Kusilvak Census,Alaska,Kusilvak Census Area AK,50,4,9,158,4-9-2-158,West,Pacific,NA,NA,NA,NA,NA
+2164,Lake and Peninsula Borough,AK,2,Lake and Peninsula,Alaska,Lake and Peninsula Borough AK,50,4,9,164,4-9-2-164,West,Pacific,NA,NA,NA,NA,NA
+2170,Matanuska-Susitna Borough,AK,2,Matanuska-Susitna,Alaska,Matanuska-Susitna Borough AK,50,4,9,170,4-9-2-170,West,Pacific,NA,NA,NA,NA,NA
+2180,Nome Census Area,AK,2,Nome Census,Alaska,Nome Census Area AK,50,4,9,180,4-9-2-180,West,Pacific,NA,NA,NA,NA,NA
+2185,North Slope Borough,AK,2,North Slope,Alaska,North Slope Borough AK,50,4,9,185,4-9-2-185,West,Pacific,NA,NA,NA,NA,NA
+2188,Northwest Arctic Borough,AK,2,Northwest Arctic,Alaska,Northwest Arctic Borough AK,50,4,9,188,4-9-2-188,West,Pacific,NA,NA,NA,NA,NA
+2195,Petersburg Borough,AK,2,Petersburg,Alaska,Petersburg Borough AK,50,4,9,195,4-9-2-195,West,Pacific,NA,NA,NA,NA,NA
+2198,Prince of Wales-Hyder Census Area,AK,2,Prince of Wales-Hyder Census,Alaska,Prince of Wales-Hyder Census Area AK,50,4,9,198,4-9-2-198,West,Pacific,NA,NA,NA,NA,NA
+2220,Sitka City and Borough,AK,2,Sitka and Borough,Alaska,Sitka City and Borough AK,50,4,9,220,4-9-2-220,West,Pacific,NA,NA,NA,NA,NA
+2230,Skagway Municipality,AK,2,Skagway,Alaska,Skagway Municipality AK,50,4,9,230,4-9-2-230,West,Pacific,NA,NA,NA,NA,NA
+2240,Southeast Fairbanks Census Area,AK,2,Southeast Fairbanks Census,Alaska,Southeast Fairbanks Census Area AK,50,4,9,240,4-9-2-240,West,Pacific,NA,NA,NA,NA,NA
+2261,Valdez-Cordova Census Area,AK,2,Valdez-Cordova Census,Alaska,Valdez-Cordova Census Area AK,50,4,9,261,4-9-2-261,West,Pacific,NA,NA,NA,NA,NA
+2270,Wade Hampton Census Area,AK,NA,Wade Hampton Census,Alaska,Wade Hampton Census Area AK,NA,NA,NA,NA,"NA-NA-NA-NA",NA,NA,NA,NA,NA,NA,NA
+2275,Wrangell City and Borough,AK,2,Wrangell and Borough,Alaska,Wrangell City and Borough AK,50,4,9,275,4-9-2-275,West,Pacific,NA,NA,NA,NA,NA
+2282,Yakutat City and Borough,AK,2,Yakutat and Borough,Alaska,Yakutat City and Borough AK,50,4,9,282,4-9-2-282,West,Pacific,NA,NA,NA,NA,NA
+2290,Yukon-Koyukuk Census Area,AK,2,Yukon-Koyukuk Census,Alaska,Yukon-Koyukuk Census Area AK,50,4,9,290,4-9-2-290,West,Pacific,NA,NA,NA,NA,NA
+4012,La Paz County,AZ,4,La Paz,Arizona,La Paz County AZ,50,4,8,12,4-8-4-12,West,Mountain,NA,NA,NA,NA,NA
+5025,Cleveland County,AR,5,Cleveland,Arkansas,Cleveland County AR,50,3,7,25,3-7-5-25,South,West South Central,NA,NA,NA,NA,NA
+5027,Columbia County,AR,5,County,Arkansas,Columbia County AR,50,3,7,27,3-7-5-27,South,West South Central,NA,NA,NA,NA,NA
+5123,St. Francis County,AR,5,St. Francis,Arkansas,St. Francis County AR,50,3,7,123,3-7-5-123,South,West South Central,NA,NA,NA,NA,NA
+8014,Broomfield County,CO,8,Broomfield,Colorado,Broomfield County CO,50,4,8,14,4-8-8-14,West,Mountain,NA,NA,NA,NA,NA
+11001,District of Columbia,DC,11,District of,District of Columbia,District of Columbia DC,40,3,5,0,3-5-11-0,South,South Atlantic,NA,NA,NA,NA,NA
+11001,District of Columbia,DC,11,District of,District of Columbia,District of Columbia DC,50,3,5,1,3-5-11-1,South,South Atlantic,NA,NA,NA,NA,NA
+12007,Bradford County,FL,12,Bradford,Florida,Bradford County FL,50,3,5,7,3-5-12-7,South,South Atlantic,NA,NA,NA,NA,NA
+12009,Brevard County,FL,12,Brevard,Florida,Brevard County FL,50,3,5,9,3-5-12-9,South,South Atlantic,NA,NA,NA,NA,NA
+12023,Columbia County,FL,12,County,Florida,Columbia County FL,50,3,5,23,3-5-12-23,South,South Atlantic,NA,NA,NA,NA,NA
+12027,DeSoto County,FL,12,DeSoto,Florida,DeSoto County FL,50,3,5,27,3-5-12-27,South,South Atlantic,NA,NA,NA,NA,NA
+12053,Hernando County,FL,12,Hernando,Florida,Hernando County FL,50,3,5,53,3-5-12-53,South,South Atlantic,NA,NA,NA,NA,NA
+12086,Miami-Dade County,FL,12,Miami-Dade,Florida,Miami-Dade County FL,50,3,5,86,3-5-12-86,South,South Atlantic,NA,NA,NA,NA,NA
+12095,Orange County,FL,12,Orange,Florida,Orange County FL,50,3,5,95,3-5-12-95,South,South Atlantic,NA,NA,NA,NA,NA
+12109,St. Johns County,FL,12,St. Johns,Florida,St. Johns County FL,50,3,5,109,3-5-12-109,South,South Atlantic,NA,NA,NA,NA,NA
+12111,St. Lucie County,FL,12,St. Lucie,Florida,St. Lucie County FL,50,3,5,111,3-5-12-111,South,South Atlantic,NA,NA,NA,NA,NA
+13015,Bartow County,GA,13,Bartow,Georgia,Bartow County GA,50,3,5,15,3-5-13-15,South,South Atlantic,NA,NA,NA,NA,NA
+13073,Columbia County,GA,13,County,Georgia,Columbia County GA,50,3,5,73,3-5-13-73,South,South Atlantic,NA,NA,NA,NA,NA
+13089,DeKalb County,GA,13,DeKalb,Georgia,DeKalb County GA,50,3,5,89,3-5-13-89,South,South Atlantic,NA,NA,NA,NA,NA
+13189,McDuffie County,GA,13,McDuffie,Georgia,McDuffie County GA,50,3,5,189,3-5-13-189,South,South Atlantic,NA,NA,NA,NA,NA
+13191,McIntosh County,GA,13,McIntosh,Georgia,McIntosh County GA,50,3,5,191,3-5-13-191,South,South Atlantic,NA,NA,NA,NA,NA
+15005,Kalawao County,HI,15,Kalawao,Hawaii,Kalawao County HI,50,4,9,5,4-9-15-5,West,Pacific,NA,NA,NA,NA,NA
+17043,DuPage County,IL,17,DuPage,Illinois,DuPage County IL,50,2,3,43,2-3-17-43,Midwest,East North Central,NA,NA,NA,NA,NA
+17099,LaSalle County,IL,17,LaSalle,Illinois,LaSalle County IL,50,2,3,99,2-3-17-99,Midwest,East North Central,NA,NA,NA,NA,NA
+17163,St. Clair County,IL,17,St. Clair,Illinois,St. Clair County IL,50,2,3,163,2-3-17-163,Midwest,East North Central,NA,NA,NA,NA,NA
+18033,DeKalb County,IN,18,DeKalb,Indiana,DeKalb County IN,50,2,3,33,2-3-18-33,Midwest,East North Central,NA,NA,NA,NA,NA
+18087,LaGrange County,IN,18,LaGrange,Indiana,LaGrange County IN,50,2,3,87,2-3-18-87,Midwest,East North Central,NA,NA,NA,NA,NA
+18091,LaPorte County,IN,18,LaPorte,Indiana,LaPorte County IN,50,2,3,91,2-3-18-91,Midwest,East North Central,NA,NA,NA,NA,NA
+18141,St. Joseph County,IN,18,St. Joseph,Indiana,St. Joseph County IN,50,2,3,141,2-3-18-141,Midwest,East North Central,NA,NA,NA,NA,NA
+19119,Lyon County,IA,19,Lyon,Iowa,Lyon County IA,50,2,4,119,2-4-19-119,Midwest,West North Central,NA,NA,NA,NA,NA
+19141,O'Brien County,IA,19,O'Brien,Iowa,O'Brien County IA,50,2,4,141,2-4-19-141,Midwest,West North Central,NA,NA,NA,NA,NA
+20007,Barber County,KS,20,Barber,Kansas,Barber County KS,50,2,4,7,2-4-20-7,Midwest,West North Central,NA,NA,NA,NA,NA
+20021,Cherokee County,KS,20,Cherokee,Kansas,Cherokee County KS,50,2,4,21,2-4-20-21,Midwest,West North Central,NA,NA,NA,NA,NA
+20055,Finney County,KS,20,Finney,Kansas,Finney County KS,50,2,4,55,2-4-20-55,Midwest,West North Central,NA,NA,NA,NA,NA
+20061,Geary County,KS,20,Geary,Kansas,Geary County KS,50,2,4,61,2-4-20-61,Midwest,West North Central,NA,NA,NA,NA,NA
+20121,Miami County,KS,20,Miami,Kansas,Miami County KS,50,2,4,121,2-4-20-121,Midwest,West North Central,NA,NA,NA,NA,NA
+20133,Neosho County,KS,20,Neosho,Kansas,Neosho County KS,50,2,4,133,2-4-20-133,Midwest,West North Central,NA,NA,NA,NA,NA
+22035,East Carroll Parish,LA,22,East Carroll,Louisiana,East Carroll Parish LA,50,3,7,35,3-7-22-35,South,West South Central,NA,NA,NA,NA,NA
+22087,St. Bernard Parish,LA,22,St. Bernard,Louisiana,St. Bernard Parish LA,50,3,7,87,3-7-22-87,South,West South Central,NA,NA,NA,NA,NA
+22089,St. Charles Parish,LA,22,St. Charles,Louisiana,St. Charles Parish LA,50,3,7,89,3-7-22-89,South,West South Central,NA,NA,NA,NA,NA
+22091,St. Helena Parish,LA,22,St. Helena,Louisiana,St. Helena Parish LA,50,3,7,91,3-7-22-91,South,West South Central,NA,NA,NA,NA,NA
+22093,St. James Parish,LA,22,St. James,Louisiana,St. James Parish LA,50,3,7,93,3-7-22-93,South,West South Central,NA,NA,NA,NA,NA
+22095,St. John the Baptist Parish,LA,22,St. John the Baptist,Louisiana,St. John the Baptist Parish LA,50,3,7,95,3-7-22-95,South,West South Central,NA,NA,NA,NA,NA
+22097,St. Landry Parish,LA,22,St. Landry,Louisiana,St. Landry Parish LA,50,3,7,97,3-7-22-97,South,West South Central,NA,NA,NA,NA,NA
+22099,St. Martin Parish,LA,22,St. Martin,Louisiana,St. Martin Parish LA,50,3,7,99,3-7-22-99,South,West South Central,NA,NA,NA,NA,NA
+22101,St. Mary Parish,LA,22,St. Mary,Louisiana,St. Mary Parish LA,50,3,7,101,3-7-22-101,South,West South Central,NA,NA,NA,NA,NA
+22103,St. Tammany Parish,LA,22,St. Tammany,Louisiana,St. Tammany Parish LA,50,3,7,103,3-7-22-103,South,West South Central,NA,NA,NA,NA,NA
+24033,Prince George's County,MD,24,Prince George's,Maryland,Prince George's County MD,50,3,5,33,3-5-24-33,South,South Atlantic,NA,NA,NA,NA,NA
+24035,Queen Anne's County,MD,24,Queen Anne's,Maryland,Queen Anne's County MD,50,3,5,35,3-5-24-35,South,South Atlantic,NA,NA,NA,NA,NA
+24037,St. Mary's County,MD,24,St. Mary's,Maryland,St. Mary's County MD,50,3,5,37,3-5-24-37,South,South Atlantic,NA,NA,NA,NA,NA
+26097,Mackinac County,MI,26,Mackinac,Michigan,Mackinac County MI,50,2,3,97,2-3-26-97,Midwest,East North Central,NA,NA,NA,NA,NA
+26147,St. Clair County,MI,26,St. Clair,Michigan,St. Clair County MI,50,2,3,147,2-3-26-147,Midwest,East North Central,NA,NA,NA,NA,NA
+26149,St. Joseph County,MI,26,St. Joseph,Michigan,St. Joseph County MI,50,2,3,149,2-3-26-149,Midwest,East North Central,NA,NA,NA,NA,NA
+27069,Kittson County,MN,27,Kittson,Minnesota,Kittson County MN,50,2,4,69,2-4-27-69,Midwest,West North Central,NA,NA,NA,NA,NA
+27073,Lac qui Parle County,MN,27,Lac qui Parle,Minnesota,Lac qui Parle County MN,50,2,4,73,2-4-27-73,Midwest,West North Central,NA,NA,NA,NA,NA
+27137,St. Louis County,MN,27,St. Louis,Minnesota,St. Louis County MN,50,2,4,137,2-4-27-137,Midwest,West North Central,NA,NA,NA,NA,NA
+27167,Wilkin County,MN,27,Wilkin,Minnesota,Wilkin County MN,50,2,4,167,2-4-27-167,Midwest,West North Central,NA,NA,NA,NA,NA
+28033,DeSoto County,MS,28,DeSoto,Mississippi,DeSoto County MS,50,3,6,33,3-6-28-33,South,East South Central,NA,NA,NA,NA,NA
+29037,Cass County,MO,29,Cass,Missouri,Cass County MO,50,2,4,37,2-4-29-37,Midwest,West North Central,NA,NA,NA,NA,NA
+29063,DeKalb County,MO,29,DeKalb,Missouri,DeKalb County MO,50,2,4,63,2-4-29-63,Midwest,West North Central,NA,NA,NA,NA,NA
+29083,Henry County,MO,29,Henry,Missouri,Henry County MO,50,2,4,83,2-4-29-83,Midwest,West North Central,NA,NA,NA,NA,NA
+29183,St. Charles County,MO,29,St. Charles,Missouri,St. Charles County MO,50,2,4,183,2-4-29-183,Midwest,West North Central,NA,NA,NA,NA,NA
+29185,St. Clair County,MO,29,St. Clair,Missouri,St. Clair County MO,50,2,4,185,2-4-29-185,Midwest,West North Central,NA,NA,NA,NA,NA
+29186,Ste. Genevieve County,MO,29,Ste. Genevieve,Missouri,Ste. Genevieve County MO,50,2,4,186,2-4-29-186,Midwest,West North Central,NA,NA,NA,NA,NA
+29187,St. Francois County,MO,29,St. Francois,Missouri,St. Francois County MO,50,2,4,187,2-4-29-187,Midwest,West North Central,NA,NA,NA,NA,NA
+29189,St. Louis County,MO,29,St. Louis,Missouri,St. Louis County MO,50,2,4,189,2-4-29-189,Midwest,West North Central,NA,NA,NA,NA,NA
+29510,St. Louis city,MO,29,St. Louis,Missouri,St. Louis city MO,50,2,4,510,2-4-29-510,Midwest,West North Central,NA,NA,NA,NA,NA
+30049,Lewis and Clark County,MT,30,Lewis and Clark,Montana,Lewis and Clark County MT,50,4,8,49,4-8-30-49,West,Mountain,NA,NA,NA,NA,NA
+30055,McCone County,MT,30,McCone,Montana,McCone County MT,50,4,8,55,4-8-30-55,West,Mountain,NA,NA,NA,NA,NA
+31097,Johnson County,NE,31,Johnson,Nebraska,Johnson County NE,50,2,4,97,2-4-31-97,Midwest,West North Central,NA,NA,NA,NA,NA
+31107,Knox County,NE,31,Knox,Nebraska,Knox County NE,50,2,4,107,2-4-31-107,Midwest,West North Central,NA,NA,NA,NA,NA
+35006,Cibola County,NM,35,Cibola,New Mexico,Cibola County NM,50,4,8,6,4-8-35-6,West,Mountain,NA,NA,NA,NA,NA
+35011,De Baca County,NM,35,De Baca,New Mexico,De Baca County NM,50,4,8,11,4-8-35-11,West,Mountain,NA,NA,NA,NA,NA
+35013,DoÐa Ana County,NM,35,Doï¿½a Ana,New Mexico,DoÐa Ana County NM,50,4,8,13,4-8-35-13,West,Mountain,NA,NA,NA,NA,NA
+35028,Los Alamos County,NM,35,Los Alamos,New Mexico,Los Alamos County NM,50,4,8,28,4-8-35-28,West,Mountain,NA,NA,NA,NA,NA
+35031,McKinley County,NM,35,McKinley,New Mexico,McKinley County NM,50,4,8,31,4-8-35-31,West,Mountain,NA,NA,NA,NA,NA
+36021,Columbia County,NY,36,County,New York,Columbia County NY,50,1,2,21,1-2-36-21,Northeast,Middle Atlantic,NA,NA,NA,NA,NA
+36089,St. Lawrence County,NY,36,St. Lawrence,New York,St. Lawrence County NY,50,1,2,89,1-2-36-89,Northeast,Middle Atlantic,NA,NA,NA,NA,NA
+38045,LaMoure County,ND,38,LaMoure,North Dakota,LaMoure County ND,50,2,4,45,2-4-38-45,Midwest,West North Central,NA,NA,NA,NA,NA
+39029,Columbiana County,OH,39,na County,Ohio,Columbiana County OH,50,2,3,29,2-3-39-29,Midwest,East North Central,NA,NA,NA,NA,NA
+40087,McClain County,OK,40,McClain,Oklahoma,McClain County OK,50,3,7,87,3-7-40-87,South,West South Central,NA,NA,NA,NA,NA
+40089,McCurtain County,OK,40,McCurtain,Oklahoma,McCurtain County OK,50,3,7,89,3-7-40-89,South,West South Central,NA,NA,NA,NA,NA
+40091,McIntosh County,OK,40,McIntosh,Oklahoma,McIntosh County OK,50,3,7,91,3-7-40-91,South,West South Central,NA,NA,NA,NA,NA
+41009,Columbia County,OR,41,County,Oregon,Columbia County OR,50,4,9,9,4-9-41-9,West,Pacific,NA,NA,NA,NA,NA
+42037,Columbia County,PA,42,County,Pennsylvania,Columbia County PA,50,1,2,37,1-2-42-37,Northeast,Middle Atlantic,NA,NA,NA,NA,NA
+42083,McKean County,PA,42,McKean,Pennsylvania,McKean County PA,50,1,2,83,1-2-42-83,Northeast,Middle Atlantic,NA,NA,NA,NA,NA
+46102,Oglala Lakota County,SD,46,Oglala Lakota,South Dakota,Oglala Lakota County SD,50,2,4,102,2-4-46-102,Midwest,West North Central,NA,NA,NA,NA,NA
+46105,Perkins County,SD,46,Perkins,South Dakota,Perkins County SD,50,2,4,105,2-4-46-105,Midwest,West North Central,NA,NA,NA,NA,NA
+46109,Roberts County,SD,46,Roberts,South Dakota,Roberts County SD,50,2,4,109,2-4-46-109,Midwest,West North Central,NA,NA,NA,NA,NA
+47041,DeKalb County,TN,47,DeKalb,Tennessee,DeKalb County TN,50,3,6,41,3-6-47-41,South,East South Central,NA,NA,NA,NA,NA
+48067,Cass County,TX,48,Cass,Texas,Cass County TX,50,3,7,67,3-7-48-67,South,West South Central,NA,NA,NA,NA,NA
+48123,DeWitt County,TX,48,DeWitt,Texas,DeWitt County TX,50,3,7,123,3-7-48-123,South,West South Central,NA,NA,NA,NA,NA
+48429,Stephens County,TX,48,Stephens,Texas,Stephens County TX,50,3,7,429,3-7-48-429,South,West South Central,NA,NA,NA,NA,NA
+48507,Zavala County,TX,48,Zavala,Texas,Zavala County TX,50,3,7,507,3-7-48-507,South,West South Central,NA,NA,NA,NA,NA
+51013,Arlington County,VA,51,Arlington,Virginia,Arlington County VA,50,3,5,13,3-5-51-13,South,South Atlantic,NA,NA,NA,NA,NA
+51036,Charles City County,VA,51,Charles County,Virginia,Charles City County VA,50,3,5,36,3-5-51-36,South,South Atlantic,NA,NA,NA,NA,NA
+51093,Isle of Wight County,VA,51,Isle of Wight,Virginia,Isle of Wight County VA,50,3,5,93,3-5-51-93,South,South Atlantic,NA,NA,NA,NA,NA
+51095,James City County,VA,51,James County,Virginia,James City County VA,50,3,5,95,3-5-51-95,South,South Atlantic,NA,NA,NA,NA,NA
+51097,King and Queen County,VA,51,King and Queen,Virginia,King and Queen County VA,50,3,5,97,3-5-51-97,South,South Atlantic,NA,NA,NA,NA,NA
+51510,Alexandria city,VA,51,Alexandria,Virginia,Alexandria city VA,50,3,5,510,3-5-51-510,South,South Atlantic,NA,NA,NA,NA,NA
+51550,Chesapeake city,VA,51,Chesapeake,Virginia,Chesapeake city VA,50,3,5,550,3-5-51-550,South,South Atlantic,NA,NA,NA,NA,NA
+51570,Colonial Heights city,VA,51,Colonial Heights,Virginia,Colonial Heights city VA,50,3,5,570,3-5-51-570,South,South Atlantic,NA,NA,NA,NA,NA
+51580,Covington city,VA,51,Covington,Virginia,Covington city VA,50,3,5,580,3-5-51-580,South,South Atlantic,NA,NA,NA,NA,NA
+51595,Emporia city,VA,51,Emporia,Virginia,Emporia city VA,50,3,5,595,3-5-51-595,South,South Atlantic,NA,NA,NA,NA,NA
+51610,Falls Church city,VA,51,Falls Church,Virginia,Falls Church city VA,50,3,5,610,3-5-51-610,South,South Atlantic,NA,NA,NA,NA,NA
+51640,Galax city,VA,51,Galax,Virginia,Galax city VA,50,3,5,640,3-5-51-640,South,South Atlantic,NA,NA,NA,NA,NA
+51678,Lexington city,VA,51,Lexington,Virginia,Lexington city VA,50,3,5,678,3-5-51-678,South,South Atlantic,NA,NA,NA,NA,NA
+51683,Manassas city,VA,51,Manassas,Virginia,Manassas city VA,50,3,5,683,3-5-51-683,South,South Atlantic,NA,NA,NA,NA,NA
+51685,Manassas Park city,VA,51,Manassas Park,Virginia,Manassas Park city VA,50,3,5,685,3-5-51-685,South,South Atlantic,NA,NA,NA,NA,NA
+51720,Norton city,VA,51,Norton,Virginia,Norton city VA,50,3,5,720,3-5-51-720,South,South Atlantic,NA,NA,NA,NA,NA
+51735,Poquoson city,VA,51,Poquoson,Virginia,Poquoson city VA,50,3,5,735,3-5-51-735,South,South Atlantic,NA,NA,NA,NA,NA
+51775,Salem city,VA,51,Salem,Virginia,Salem city VA,50,3,5,775,3-5-51-775,South,South Atlantic,NA,NA,NA,NA,NA
+51810,Virginia Beach city,VA,51,Virginia Beach,Virginia,Virginia Beach city VA,50,3,5,810,3-5-51-810,South,South Atlantic,NA,NA,NA,NA,NA
+51820,Waynesboro city,VA,51,Waynesboro,Virginia,Waynesboro city VA,50,3,5,820,3-5-51-820,South,South Atlantic,NA,NA,NA,NA,NA
+51830,Williamsburg city,VA,51,Williamsburg,Virginia,Williamsburg city VA,50,3,5,830,3-5-51-830,South,South Atlantic,NA,NA,NA,NA,NA
+53013,Columbia County,WA,53,County,Washington,Columbia County WA,50,4,9,13,4-9-53-13,West,Pacific,NA,NA,NA,NA,NA
+53027,Grays Harbor County,WA,53,Grays Harbor,Washington,Grays Harbor County WA,50,4,9,27,4-9-53-27,West,Pacific,NA,NA,NA,NA,NA
+55005,Barron County,WI,55,Barron,Wisconsin,Barron County WI,50,2,3,5,2-3-55-5,Midwest,East North Central,NA,NA,NA,NA,NA
+55007,Bayfield County,WI,55,Bayfield,Wisconsin,Bayfield County WI,50,2,3,7,2-3-55-7,Midwest,East North Central,NA,NA,NA,NA,NA
+55021,Columbia County,WI,55,County,Wisconsin,Columbia County WI,50,2,3,21,2-3-55-21,Midwest,East North Central,NA,NA,NA,NA,NA
+55039,Fond du Lac County,WI,55,Fond du Lac,Wisconsin,Fond du Lac County WI,50,2,3,39,2-3-55-39,Midwest,East North Central,NA,NA,NA,NA,NA
+55078,Menominee County,WI,55,Menominee,Wisconsin,Menominee County WI,50,2,3,78,2-3-55-78,Midwest,East North Central,NA,NA,NA,NA,NA
+55109,St. Croix County,WI,55,St. Croix,Wisconsin,St. Croix County WI,50,2,3,109,2-3-55-109,Midwest,East North Central,NA,NA,NA,NA,NA
+55123,Vernon County,WI,55,Vernon,Wisconsin,Vernon County WI,50,2,3,123,2-3-55-123,Midwest,East North Central,NA,NA,NA,NA,NA
