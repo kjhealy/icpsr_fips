@@ -1,7 +1,6 @@
 ---
 title: "FIPS / ICPSR"
 output:
-  pdf_document: default
   html_document: default
 ---
 
@@ -32,9 +31,9 @@ icpsr
 ```
 
 
-## County FIPS codes from my GitHub 
+## FIPS table  
 
-This may not be up to date! Can get more current list from the Census
+This is from my own repo. This may not be up to date! Can get more current list from the Census
 
 ```{r}
 fips <- read_csv("https://raw.githubusercontent.com/kjhealy/fips-codes/master/county_fips_master.csv")
@@ -61,12 +60,11 @@ fips
 
 ## Joining the tables
 
-### 1. 
+### 1. Left-join `icpsr` table to `fips` table
+
+This will preserve all rows in `icpsr` but any rows in fips not matched in icpsr won't be merged.
 
 ```{r}
-## Left join icpsr to fips: this will preserve all rows in 
-## icpsr, but any rows in fips not matched in icpsr won't
-## be merged.
 ## Result: 3,265 x 19
 icpsr_ljoin_fips <- icpsr %>% 
   left_join(fips, by = c("icp_state" = "state_name", 
@@ -76,12 +74,13 @@ icpsr_ljoin_fips <- icpsr %>%
 write_csv(icpsr_ljoin_fips, file = "data/icpsr_ljoin_fips.csv")
 
 
-icpsr_to_fips
+icpsr_ljoin_fips
 
 ```
 
+What's missing in this table after the merge? If FIPS is missing, the county didn't exist in the original `fips` table.
+
 ```{r}
-## Missing after merge: if FIPS is missing, the county didn't exist in fips 
 ## 279 rows missing
 icpsr_nofips <- icpsr_ljoin_fips %>% 
   filter(is.na(fips)) 
@@ -91,12 +90,11 @@ icpsr_nofips
 write_csv(file = "data/icpsr_nofips.csv", icpsr_nofips)
 ```
 
-### 2. 
+### 2. Left join `fips` to `icpsr`
+
+With `fips` on the left side of the join, this will preserve all rows in `fips`, but any rows in `icpsr` not matched in fips won't be merged.
 
 ```{r}
-## Left join fips to icpsr: this will preserve all rows in 
-## fips, but any rows in icpsr not matched in fips won't 
-## be merged.
 # Result: 3,146 × 19
 fips_ljoin_icpsr <- fips %>% 
   left_join(icpsr, by = c("state_name" = "icp_state", 
@@ -108,8 +106,9 @@ write_csv(fips_ljoin_icpsr, file = "data/fips_ljoin_icpsr.csv")
 fips_ljoin_icpsr
 ```
 
+What's missing after merging this way? If the `icp_county_cod` is missing, the county didn't exist in the original `icpsr` table. 
+
 ```{r}
-### Missing after merge: if icp_county_cod is missing, the county didn't exist in icpsr 
 ### 160 rows missing
 missing_icpcod <- fips_ljoin_icpsr %>% 
   filter(is.na(icp_county_cod)) 
@@ -121,10 +120,9 @@ write_csv(missing_icpcod, file = "data/missing_icp_cod.csv")
 ```
 
 
-### 3.
+### 3. Full join: merges tables, preserves all rows in both tables
 
 ```{r}
-## Full join: merges tables, preserves all rows in both tables
 ## Result: 3,425 x 19
 county_fulljoin <- icpsr %>% 
   full_join(fips, by = c("icp_state" = "state_name", 
@@ -133,11 +131,11 @@ county_fulljoin <- icpsr %>%
 
 write_csv(county_fulljoin, file = "data/county_fulljoin.csv")
 
-county_full
+county_fulljoin
 
 ```
 
-
+The missings from both the original tables are in this table.
 
 
 
